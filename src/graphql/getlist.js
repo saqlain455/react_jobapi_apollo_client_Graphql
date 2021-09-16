@@ -14,7 +14,11 @@ query{
     applyUrl,
   	slug,
     description,
-    postedAt
+    postedAt,
+    locationNames,
+    tags{
+        name
+      }
   }
 }
 `
